@@ -1,0 +1,19 @@
+{
+  "name": "@serkans/log-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "pub": "git add . && git commit -m \"updates\" && git push -u origin master && npm version patch && tsc && npm publish"
+  },
+  "keywords": [],
+  "author": "Serkan Soy",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.7.2"
+  }
+}
